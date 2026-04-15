@@ -1,0 +1,44 @@
+body {
+    background-image: url('https://img.khetivyapar.com/images/news/1718614206-monsoon-in-maharashtra-heavy-rain-in-mumbai-pune-know-the-condition-of-other-cities.jpg');
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+
+}
+
+.container {
+  background: lightblue;
+  padding: 30px;
+  border-radius: 15px;
+  display: inline-block;
+  /* box-shadow: 0 5px 15px rgba(0,0,0,0.2); */
+}
+
+input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-left: 10px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#weatherResult {
+  margin-top: 20px;
+  font-size: 18px;
+}
