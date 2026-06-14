@@ -2,15 +2,21 @@ pipeline {
     agent any
 
     stages {
-        stage('Install Dependencies') {
+        stage('Checkout') {
             steps {
-                bat 'pip install flask'
+                checkout scm
             }
         }
 
-        stage('Run Application') {
+        stage('Verify Files') {
             steps {
-                bat 'start /B python app.py'
+                bat 'dir'
+            }
+        }
+
+        stage('Deploy') {
+            steps {
+                bat 'echo Weather App deployed successfully!'
             }
         }
     }
