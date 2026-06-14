@@ -16,7 +16,7 @@ pipeline {
 
         stage('Deploy') {
     steps {
-        bat 'echo Weather App deployed successfully!'
+        bat 'python -m http.server 8000'
     }
 }
     }
