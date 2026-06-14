@@ -15,9 +15,9 @@ pipeline {
         }
 
         stage('Deploy') {
-            steps {
-                bat 'echo Weather App deployed successfully!'
-            }
-        }
+    steps {
+        bat 'start index.html'
+    }
+}
     }
 }
