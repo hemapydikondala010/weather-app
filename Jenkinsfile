@@ -16,7 +16,7 @@ pipeline {
 
         stage('Deploy') {
     steps {
-        bat 'python -m http.server 8000'
+        bat 'start index.html'
     }
 }
     }
