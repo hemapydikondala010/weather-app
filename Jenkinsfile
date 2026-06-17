@@ -16,7 +16,7 @@ pipeline {
 
         stage('Deploy') {
     steps {
-        bat 'start index.html'
+        bat 'echo Deploying application...'
     }
 }
     }
